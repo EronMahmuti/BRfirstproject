@@ -2,7 +2,6 @@ const apiData = {
     url: "https://pokeapi.co/api/v2/",
     type: "pokemon",
     id: '25',
-
 }
 
 const {url, type, id} = apiData;
@@ -19,7 +18,6 @@ const generate = (data) => {
         <div class="details"> 
         <span>Height: ${data.height} </span>
         <span>Weight: ${data.weight} </span>
-        
         </div>
     `
 
