@@ -55,6 +55,20 @@ body{
     margin: 1rem;
     opacity: 0.8;
 }
+.form-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.form-modal input{
+    width: 250px;
+}
+.form-modal label{
+    text-align: center;
+}
+
+
 #close{
     margin: 1rem;
     padding: 1rem;
